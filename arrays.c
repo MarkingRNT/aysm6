@@ -4,7 +4,7 @@
 int main(int argc, char *argv[]) {
 
     // Verifico que se haya ejecutado el programa indicando la cantidad de elementos
-    if (argc < 2) {
+    if (argc == 2) {
         printf("Uso: ./arrays [cantidad de elementos]");
         return 1;
     }
