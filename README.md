@@ -38,7 +38,7 @@ Materia: Computadoras y Sistemas de Control
 - En cuanto a como calcular el valor que va en el registro `UBRR0` para elegir la velocidad, tienen esta ecuación que pueden usar:
 
 <div align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=BAUD=\frac{f_{osc}}{8(UBRR0+1)-1}">
+  <img src="https://render.githubusercontent.com/render/math?math=BAUD=\frac{f_{osc}}{8(UBRR0+1)}-1">
 </div>
 
 - En `GPIO.c` tienen las variables `temp` y `sp` que tienen guardadas la temperatura y el valor del setpoint respectivamente.
