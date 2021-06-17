@@ -35,7 +35,7 @@ Materia: Computadoras y Sistemas de Control
 - En cuanto a como calcular el valor que va en el registro `UBRR0` para elegir la velocidad, tienen esta ecuación que pueden usar:
 
 <div align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=BAUD=\frac{f_{osc}}{8(UBRR0+1)}">
+  <img src="https://render.githubusercontent.com/render/math?math=BAUD=\frac{f_{osc}}{8(UBRR0+1)}-1">
 </div>
 
 - Las dudas que tengan sobre los registros pueden aclararlas en la hoja de datos en el capítulo 17. 
