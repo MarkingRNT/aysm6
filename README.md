@@ -8,7 +8,6 @@ Escribir el código necesario para que las funciones de `UART.c` cumplan con lo 
   - Tx y Rx habilitados.
   - Interrupcion de Rx habilitada.
   - Polaridad normal.
-  - Sin interrupciones.
   - Velocidad doble.
 - `UART_Putc` debe ser capaz de enviar un **único** byte por UART, verificando los flags apropiados. Igual que en la actividad anterior. 
 - `UART_Prints` debe poder enviar una cadena de caracteres por UART. Igual que en la actividad anterior.
@@ -59,7 +58,7 @@ git init
 git add UART.c README.md img.png
 git commit -m "Initial commit"
 git checkout -b aysm6/2021/uart/rx
-git push https://github.com/trq20/USERNAME.git aysm6/2021/uart/tx
+git push https://github.com/trq20/USERNAME.git aysm6/2021/uart/rx
 ```
 
 Recuerden cambiar `USERNAME` por su nombre de usuario en GitHub. Pueden verificar si la entrega se hizo visitando el repositorio en `https://github.com/trq20/USERNAME/tree/aysm6/2021/uart/rx`.
