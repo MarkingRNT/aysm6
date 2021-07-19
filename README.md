@@ -15,8 +15,8 @@ Materia: Computadoras y Sistemas de Control
 
 ## Consideraciones
 
-- Documentacion de [micropython](http://docs.micropython.org/en/latest/). Van a tener que usar la clase `Pin` del modulo `machine`. Particularmente, hay un apartado para la `Raspberry Pi Pico` en [Quick reference for the RP2](http://docs.micropython.org/en/latest/rp2/quickref.html#pins-and-gpio).
-- Documentacion del [simulador](https://docs.wokwi.com/micropython) que van a usar.
+- Documentación de [micropython](http://docs.micropython.org/en/latest/). Van a tener que usar la clase `Pin` del modulo `machine`. Particularmente, hay un apartado para la `Raspberry Pi Pico` en [Quick reference for the RP2](http://docs.micropython.org/en/latest/rp2/quickref.html#pins-and-gpio).
+- Documentación del [simulador](https://docs.wokwi.com/micropython) que van a usar.
 - Pinout de la `Raspberry Pi Pico`:
 
 ![](https://cdn-shop.adafruit.com/1200x900/4883-06.png)
