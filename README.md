@@ -16,6 +16,7 @@ Materia: Computadoras y Sistemas de Control
 ## Consideraciones
 
 - Documentación de [micropython](http://docs.micropython.org/en/latest/). Van a tener que usar la clase `Pin` del modulo `machine`. Particularmente, hay un apartado para la `Raspberry Pi Pico` en [Quick reference for the RP2](http://docs.micropython.org/en/latest/rp2/quickref.html#pins-and-gpio).
+- Un pdf del [SDK](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-python-sdk.pdf) con ejemplos de micropython para la Raspberry Pico en el capitulo 3.
 - Documentación del [simulador](https://docs.wokwi.com/micropython) que van a usar.
 - Para el delay, pueden usar el módulo [time](https://docs.python.org/3/library/time.html).
 - Pinout de la `Raspberry Pi Pico`:
